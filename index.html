@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>課堂大富翁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<!-- ====== 19 個隱性地產 / 事件視窗 ====== -->
+<div id="modals">
+
+  <!-- 1 ~ 19 -->
+  <!-- data-index 對應你 JS 的 modalIndex -->
+
+  <!-- 範例：只示範一個，其餘照複製到 19 -->
+  <div class="land-modal" data-index="1">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/cat/1.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="2">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/cat/2.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="3">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/cat/3.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+   <div class="land-modal" data-index="4">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/dog/4.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="5">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/dog/5.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="6">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/dog/6.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="7">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/elep/7.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="8">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/elep/8.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="9">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/elep/9.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="10">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/croco/10.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="11">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/corco/11.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="12">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/croco/12.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="13">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/bird/13.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="14">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/bird/14.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="15">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/bird/15.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="16">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/chance/16.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="17">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/chance/17.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="18">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/fate/18.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="land-modal" data-index="19">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <!-- 題目遮罩 -->
+      <div class="question-cover">
+        <button class="show-question">顯示題目</button>
+      </div>
+
+      <!-- 題目圖片 -->
+      <img class="question-image" src="assets/fate/19.png">
+
+      <div class="modal-buttons">
+        <button class="success">挑戰成功</button>
+        <button class="fail">挑戰失敗</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div id="game">
+
+  <div id="board">
+    <div class="board-wrapper">
+      <img src="assets/board.jpg" alt="大富翁地圖">
+
+      <div class="tiles">
+        <!-- 20 格 -->
+        <div class="tile" data-id="0"></div>
+        <div class="tile" data-id="1"></div>
+        <div class="tile" data-id="2"></div>
+        <div class="tile" data-id="3"></div>
+        <div class="tile" data-id="4"></div>
+        <div class="tile" data-id="5"></div>
+        <div class="tile" data-id="6"></div>
+        <div class="tile" data-id="7"></div>
+        <div class="tile" data-id="8"></div>
+        <div class="tile" data-id="9"></div>
+        <div class="tile" data-id="10"></div>
+        <div class="tile" data-id="11"></div>
+        <div class="tile" data-id="12"></div>
+        <div class="tile" data-id="13"></div>
+        <div class="tile" data-id="14"></div>
+        <div class="tile" data-id="15"></div>
+        <div class="tile" data-id="16"></div>
+        <div class="tile" data-id="17"></div>
+        <div class="tile" data-id="18"></div>
+        <div class="tile" data-id="19"></div>
+
+        <!-- 擲骰子點擊區（透明） -->
+        <div id="dice-area"></div>
+
+        <!-- 骰子顯示區（透明） -->
+        <div id="dicepng"></div>
+
+        <!-- 地產分配按鈕 -->
+        <div id="assign-land"></div>
+
+        <!-- ===== 記分板顯示區（15 個）===== -->
+        <div class="score-board">
+
+            <!-- 貓 -->
+            <div id="score-cat-land"  class="score">0</div>
+            <div id="score-cat-house" class="score">0</div>
+            <div id="score-cat-total" class="score">0</div>
+            <div id="bonus-cat" class="bonus-score"></div>
+
+
+            <!-- 狗 -->
+            <div id="score-dog-land"  class="score">0</div>
+            <div id="score-dog-house" class="score">0</div>
+            <div id="score-dog-total" class="score">0</div>
+            <div id="bonus-dog" class="bonus-score"></div>
+
+            <!-- 象 -->
+            <div id="score-elep-land"  class="score">0</div>
+            <div id="score-elep-house" class="score">0</div>
+            <div id="score-elep-total" class="score">0</div>
+            <div id="bonus-elep" class="bonus-score"></div>
+
+            <!-- 鱷 -->
+            <div id="score-croco-land"  class="score">0</div>
+            <div id="score-croco-house" class="score">0</div>
+            <div id="score-croco-total" class="score">0</div>
+            <div id="bonus-croco" class="bonus-score"></div>
+
+            <!-- 鳥 -->
+            <div id="score-bird-land"  class="score">0</div>
+            <div id="score-bird-house" class="score">0</div>
+            <div id="score-bird-total" class="score">0</div>
+            <div id="bonus-bird" class="bonus-score"></div>
+
+        </div>
+
+        <!-- 目前輪到誰（文字顯示） -->
+        <div id="current-player-text">貓</div>
+
+
+        <!-- 棋子 -->
+        <img id="cat" src="assets/cat.png" class="piece">
+        <img id="dog" src="assets/dog.png" class="piece">
+        <img id="elep" src="assets/elep.png" class="piece">
+        <img id="croco" src="assets/croco.png" class="piece">
+        <img id="bird" src="assets/bird.png" class="piece">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
